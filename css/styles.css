@@ -179,3 +179,9 @@ p {
 		transform: rotate(0);
 	}
 }
+
+@media (max-width: 480px) {
+	.big-heading {
+		font-size: 3rem;
+	}
+}
