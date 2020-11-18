@@ -7,7 +7,6 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
-	overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -177,5 +176,11 @@ p {
 	.title-image {
 		position: static;
 		transform: rotate(0);
+	}
+}
+
+@media (max-width: 480px) {
+	.big-heading {
+		font-size: 2rem;
 	}
 }
